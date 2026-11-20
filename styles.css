@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsla(260, 35%, 90%, 0.95);
+    padding: 1em
+}
+
+img {
+    width: 30%;
+    border-radius: 5px;
+}
+
+.content{
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inverted{
+    flex-direction: row-reverse;
+}
